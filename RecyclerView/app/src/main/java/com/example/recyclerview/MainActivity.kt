@@ -58,6 +58,7 @@ class MainActivity : AppCompatActivity(), ExampleAdapter.OnItemClickListener {
                 1 -> R.drawable.ic_music
                 else -> R.drawable.ic_brush
             }
+
             val item = ExampleItem(drawable, "Item $i", "Line 2")
             list += item
         }
